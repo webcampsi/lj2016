@@ -1,35 +1,89 @@
-<header class="site-header">
+<header class="header">
+
+
+  <div class="btn-group tbl-op" role="social icons">
+  <ul class="fa-ul">
+
+    {% if site.twitter_username %}
+    <li>
+      <a href="https://twitter.com/{{ site.twitter_username }}">
+        <i class='fa fa-twitter fa-2x'>
+        </i>
+      </a>
+    </li>
+    {% endif %}
+
+    {% if site.facebook_username %}
+    <li>
+      <a href="https://github.com/{{ site.facebook_username }}">
+        <i class='fa fa-facebook fa-2x'>
+        </i>
+      </a>
+    </li>
+    {% endif %}
+
+  </ul>
+  </div>
 
   <div class="wrapper">
-      <div class="bg"></div>
-      <div class="logo">
-        <img src="../assets/images/WC_logo.png"/>
-      </div>
-      <nav class="site-nav">
-        <a href="#" class="menu-icon">
-          <svg viewBox="0 0 18 15">
-            <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
-            <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
-            <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
-          </svg>
-        </a>
 
-        <div class="trigger">
-          {% for my_page in site.pages %}
-            {% if my_page.title %}
-            <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
-            {% endif %}
-          {% endfor %}
+    <img src="../assets/images/WC_logo.png" class="logo">
+    <div class="jumbotron">
+      <h1>March 12th 2016</h1>
+
+      <div class='form'>
+        <!-- Begin MailChimp Signup Form -->
+        <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
+        <style type="text/css">
+          #mc_embed_signup{clear:left;}
+        </style>
+        <div id="mc_embed_signup" class="form u-futura-4 clearfix">
+          <form action="//webcamp.us9.list-manage.com/subscribe/post?u=fe215c156a9c379ef50c7c68c&amp;id=18c5122cf2" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+              <div class="signup">
+              <h2 class="mailinglist-title">Subscribe to Webcamp.si mailing list<br /> and get news about talks, tickets and parties.</h2>
+              <div class="mc-field-group">
+                <label for="mce-FNAME">First Name </label>
+                <input type="text" value="" name="FNAME" class="" id="mce-FNAME">
+              </div>
+              <div class="mc-field-group">
+                <label for="mce-EMAIL">Email Address  <span class="asterisk">*</span>
+                </label>
+                <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+              </div>
+              <div id="mce-responses" class="clear">
+                <div class="response" id="mce-error-response" style="display:none"></div>
+                <div class="response" id="mce-success-response" style="display:none"></div>
+              </div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;">
+                  <input type="text" name="b_fe215c156a9c379ef50c7c68c_18c5122cf2" tabindex="-1" value="">
+                </div>
+                <div class="clear">
+                  <input type="submit" value="Subscribe" name="subscribe" class="button pull-right">
+                </div>
+              </div>
+          </form>
         </div>
-      </nav>
-      <div class="jumbotron">
-        <h1>March 12th 2016</h1>
-        <p class="lead">Subscribe to webcamp mailing list and get news about talks, tickets and parties.</p>
+        <!--End mc_embed_signup-->ß
       </div>
-
-
+    </div>
 
 
   </div>
+  <nav class="site-nav">
+    <a href="#" class="menu-icon">
+      <svg viewBox="0 0 18 15">
+        <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+        <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+        <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+      </svg>
+    </a>
 
+    <div class="trigger">
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+        <a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title }}</a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </nav>
 </header>
