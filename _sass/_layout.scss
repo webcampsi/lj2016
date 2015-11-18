@@ -159,11 +159,10 @@ header .header-content .header-content-inner p {
   color: white;
   background:transparent;
 
-  p{
-
-
-  }
 }
+/**
+ * Logo
+ */
 
 .logo {
   padding: 5px 0;
@@ -180,7 +179,9 @@ header .header-content .header-content-inner p {
 
 	}
 }
-
+/**
+ * Social media icons
+ */
 
 .tbl-op ul {
     margin-left:0;
@@ -203,6 +204,78 @@ header .header-content .header-content-inner p {
 .tbl-op li .fa-li {
     position: static;
 }
+
+/**
+ * Form
+ */
+ .form {
+   background-color: transparent;
+
+   #mc_embed_signup {
+     font-size: 16px;
+
+     form {
+       padding-left: 0;
+       padding-bottom:100px;
+       margin-top:2em;
+
+       h2 {
+         font-family: $base-font-family;
+         text-transform: none;
+         font-weight:300;
+         margin-top:5px;
+         text-align: left;
+         color: white;
+       }
+       .asterisk{
+         color: #c47066;
+       }
+       .signup {
+         width: 75%;
+         max-width:600px;
+         margin: 0 auto;
+       }
+     }
+
+     .indicates-required {
+       margin-top: 0;
+       color: white;
+       margin-right: 5%;
+     }
+
+     .mc-field-group {
+       color: white;
+
+       label {
+         font-weight: lighter;
+       }
+
+       input {
+         border: none;
+         color: $grey-color-dark;
+         background-color: rgba(255,255,255,0.6);
+
+         &:focus {
+           background-color: rgba(255,255,255,0.9);
+         }
+       }
+     }
+
+     .button {
+       background-color: $green-normal;
+       margin: 15px 4% 10px 0;
+       color: white;
+       font-family:$heading-family;
+
+       &:hover {
+         background-color: $green-hover;
+       }
+     }
+   }
+ }
+
+
+
 
 /**
  * Site footer
