@@ -1,12 +1,15 @@
-<header class="header">
+<header class="header container-fluid">
 
-
-  <div class="btn-group tbl-op" role="social icons">
-  <ul class="fa-ul">
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
+    <img src="../assets/images/WC_logo.png" class="logo">
+  </div>
+  <div class="btn-group tbl-op col-md-2 hidden-xs " role="social icons">
+    <ul class="fa-ul">
 
     {% if site.twitter_username %}
     <li>
-      <a href="https://twitter.com/{{ site.twitter_username }}">
+      <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter">
         <i class='fa fa-twitter fa-2x'>
         </i>
       </a>
@@ -15,7 +18,7 @@
 
     {% if site.facebook_username %}
     <li>
-      <a href="https://github.com/{{ site.facebook_username }}">
+      <a href="https://github.com/{{ site.facebook_username }}" class="facebook">
         <i class='fa fa-facebook fa-2x'>
         </i>
       </a>
@@ -24,10 +27,12 @@
 
   </ul>
   </div>
+</div>
 
-  <div class="wrapper">
+<div class="row">
+  <div class="col-md-8 col-md-offset-2">
 
-    <img src="../assets/images/WC_logo.png" class="logo">
+
     <div class="jumbotron">
       <h1>March 12th 2016</h1>
 
@@ -67,7 +72,7 @@
       </div>
     </div>
 
-
+</div>
   </div>
   <nav class="site-nav">
     <a href="#" class="menu-icon">

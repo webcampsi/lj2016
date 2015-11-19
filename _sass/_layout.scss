@@ -158,7 +158,9 @@ header .header-content .header-content-inner p {
   position: relative;
   color: white;
   background:transparent;
-
+ @media(max-width: 768px) {
+   padding: 200px 0px;
+ }
 }
 /**
  * Logo
@@ -170,7 +172,7 @@ header .header-content .header-content-inner p {
 	z-index:100;
 	background:transparent;
   text-align: center;
-  max-width: 55%;
+  max-width: 50%;
 
 	img {
 		display: block;
@@ -187,11 +189,23 @@ header .header-content .header-content-inner p {
     margin-left:0;
     padding:0;
     list-style-type:none;
-    color:#2895f1;
+    .twitter{
+      color: $social-icon-normal;
+
+      &:hover {
+        color: $twitter-hover;
+      }
+    }
+    .facebook{
+      color: $social-icon-normal;
+
+      &:hover {
+        color: $facebook-hover;
+      }
+    }
 }
 
 .tbl-op {
-  float:right;
   padding-right: 50px;
   padding-top: 25px;
 }
