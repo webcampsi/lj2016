@@ -85,6 +85,7 @@
         }
     }
 }
+
 header {
     position: relative;
     width: 100%;
@@ -172,6 +173,7 @@ header .header-content .header-content-inner p {
 
 	}
 }
+
 /**
  * Social media icons
  */
@@ -288,7 +290,69 @@ header .header-content .header-content-inner p {
    }
  }
 
+ /**
+  * Site navigation
+  */
 
+ .nav {
+
+ 	text-align:center;
+ 	background-color: $background-color;
+  margin-top: 35px;
+
+ 	li {
+ 		display: inline-block;
+ 		padding: 0.5em;
+ 		margin-bottom:0;
+
+ 	}
+
+ 	a {
+ 		font: {
+ 			family: $base-font-family;
+ 			weight: 400;
+ 			size: 23px;
+ 		}
+ 		display: inline-block;
+ 		color: $red-color;
+ 		text-transform: uppercase;
+
+ 		&:hover {
+ 			color: $grey-color-dark;
+ 		}
+ 	}
+ }
+ @include MQ(M) {
+ 	.nav {
+ 		padding: 0 1em;
+ 		text-align: center;
+ 		@include center(y);
+ 	}
+
+ 	ul{
+ 		margin-top:0;
+ 	}
+
+ 	li {
+ 		padding: 0;
+ 	}
+ }
+
+ @include MQ(L) {
+ 	.nav {
+ 		padding: 0 1em;
+ 		text-align: center;
+ 		@include center(y);
+ 	}
+
+ 	ul{
+ 		margin-top:0;
+ 	}
+
+ 	li {
+ 		padding: 0;
+ 	}
+ }
 
 
 /**

@@ -28,6 +28,7 @@ $green-click:      #05a94b;
 $social-icon-normal:   #737170;
 $twitter-hover:    #00aced;
 $facebook-hover:   #3b5998;
+$red-color:        #ef4036;
 
 $on-palm:          600px;
 $on-laptop:        800px;
@@ -48,9 +49,14 @@ $on-laptop:        800px;
 
 
 
+
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
         "base",
+        "bourbon/bourbon", // http://bourbon.io/
+        "breakpoints",
+        "mixins",
         "layout",
         "syntax-highlighting"
+
 ;
