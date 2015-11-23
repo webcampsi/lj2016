@@ -6,8 +6,8 @@
 
 
 // Our variables
-$base-font-family: "Merriweather", "Helvetica Neue", Arial, sans-serif;
-$heading-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
+$base-font-family: "Gill Sans", "Gill Sans MT", "Calibri", "sans-serif";
+$heading-family: "Gill Sans", "Gill Sans MT", "Calibri", "sans-serif";
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -18,7 +18,7 @@ $text-color:       #111;
 $background-color: #fdfdfd;
 $brand-color:      #27ae60;
 
-$grey-color:       #828282;
+$grey-color:       #737170;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 $secondary-color: rgba(252,182,17,1);

@@ -229,7 +229,7 @@ header .header-content .header-content-inner p {
          font-family: $base-font-family;
          text-transform: none;
          font-weight:900;
-         font-size: 50px;
+         font-size: 56px;
          margin-top:60px;
          text-align: center;
          color: white;
@@ -238,7 +238,7 @@ header .header-content .header-content-inner p {
        h2 {
          font-family: $base-font-family;
          text-transform: none;
-         font-weight:300;
+         font-weight:500;
          margin-top:5px;
          text-align: left;
          color: white;
@@ -263,7 +263,7 @@ header .header-content .header-content-inner p {
        color: white;
 
        label {
-         font-weight: lighter;
+         font-weight: normal;
        }
 
        input {
