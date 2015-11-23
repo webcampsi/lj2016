@@ -361,24 +361,44 @@ header .header-content .header-content-inner p {
 .site-footer {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
+    background-color: $grey-color;
+    h3{
+      color: $white-color;
+      font-weight: bold;
+      font-size: 16px;
+      padding-left: $spacing-unit;
+    }
+    .form #mc_embed_signup form .signup {
+        margin-left: $spacing-unit;
+    }
+    .form #mc_embed_signup form {
+      margin-top: 0em;
+    }
+
 }
 
+
 .footer-heading {
-    font-size: 18px;
+    font-size: 16px;
     margin-bottom: $spacing-unit / 2;
 }
 
 .contact-list,
 .social-media-list {
     list-style: none;
-    margin-left: 0;
+    margin-left: 20px;
 }
+
+
 
 .footer-col-wrapper {
     font-size: 15px;
-    color: $grey-color;
+    color: $white-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
+    a {
+      color: $white-color;
+    }
 }
 
 .footer-col {
