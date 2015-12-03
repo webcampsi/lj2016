@@ -7,26 +7,35 @@
 
     {% include header.html %}
 
-    <div class="row">
-      <div class=" col-md-8 col-md-offset-2">
-          <ul class="nav navbar-nav">
-            <li><a href="{{ site.baseurl }}/#home">HOME</a></li>
-            <li><a href="{{ site.baseurl }}/#talks">TALKS</a></li>
-            <li><a href="{{ site.baseurl }}/#partners">PARTNERS</a></li>
-            <li><a href="{{ site.baseurl }}/#team">TEAM</a></li>
-            <li><a href="{{ site.baseurl }}/#location">LOCATION</a></li>
-            <li><a href="{{ site.baseurl }}/#contact">CONTACT</a></li>
-          </ul>
+    <div class="container">
+
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+            <ul class="nav navbar-nav text-center">
+              <li><a href="{{ site.baseurl }}/#cfp">CALL FOR TALKS</a></li>
+              <li><a href="{{ site.baseurl }}/#2015">LAST YEAR</a></li>
+              <li><a href="{{ site.baseurl }}/#partners">PARTNERS</a></li>
+              <li><a href="{{ site.baseurl }}/#contact">CONTACT</a></li>
+
+              {% comment %}
+              <li><a href="{{ site.baseurl }}/#talks">TALKS</a></li>
+              <li><a href="{{ site.baseurl }}/#team">TEAM</a></li>
+              <li><a href="{{ site.baseurl }}/#location">LOCATION</a></li>
+              {% endcomment %}
+            </ul>
+        </div>
+      </div>
+
+      <div class="page-content">
+        <div class="col-md-8 col-md-offset-2">
+          {{ content }}
+        </div>
       </div>
     </div>
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
-
-    {% include footer.html %}
+    {% comment %}
+      {% include footer.html %}
+    {% endcomment %}
 
   </body>
 
