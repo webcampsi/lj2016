@@ -333,39 +333,8 @@ header .header-content .header-content-inner p {
  		}
  	}
  }
- @include MQ(M) {
- 	.nav {
- 		padding: 0 1em;
- 		text-align: center;
- 		@include center(y);
- 	}
 
- 	ul{
- 		margin-top:0;
- 	}
-
- 	li {
- 		padding: 0;
- 	}
- }
-
- @include MQ(L) {
- 	.nav {
- 		padding: 0 1em;
- 		text-align: center;
- 		@include center(y);
- 	}
-
- 	ul{
- 		margin-top:0;
- 	}
-
- 	li {
- 		padding: 0;
- 	}
- }
-
-
+ 
 /**
  * Site footer
  */
