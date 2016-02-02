@@ -1,0 +1,38 @@
+<header class="header container-fluid">
+
+<div class="row">
+
+  <div class="col-md-8 col-md-offset-2 logo-wrapper">
+    <a href="/">
+      <img src="../assets/images/WC_logo.png" class="logo">
+    </a>
+  </div>
+  <div class="btn-group tbl-op col-sm-12 col-md-2 hidden-xs" role="social icons">
+    <ul class="fa-ul">
+
+    {% if site.twitter_username %}
+    <li>
+      <a href="https://twitter.com/{{ site.twitter_username }}" class="twitter">
+        <i class='fa fa-twitter fa-2x'>
+        </i>
+      </a>
+    </li>
+    {% endif %}
+    &nbsp;&nbsp;&nbsp;
+    {% if site.facebook_username %}
+    <li>
+      <a href="https://facebook.com/{{ site.facebook_username }}" class="facebook">
+        <i class='fa fa-facebook fa-2x'>
+        </i>
+      </a>
+    </li>
+    {% endif %}
+
+  </ul>
+  </div>
+</div>
+
+
+
+
+</header>

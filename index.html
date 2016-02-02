@@ -34,6 +34,7 @@ title: Webcamp Ljubljana 2016
   </div>
 </div>
 
+<!--
 <div id="cfp" class="section">
   <h1>Call for Talks</h1>
 
@@ -66,6 +67,32 @@ title: Webcamp Ljubljana 2016
   <h2>
     <a href='https://webcamp.typeform.com/to/ZMs0gp' class="btn btn-default" target="_blank">Submit your talk</a>
   </h2>
+</div>
+-->
+<div id="talks" class="section">
+  <h1>Talks</h1>
+	<div class="talkers">
+	{% assign posts = site.posts | sort:"name" %}
+	{% for post in posts %}
+		{% if post.role == 'talk' %}
+		<div class="talkers-one">
+			<a class="" href="{{ site.baseurl }}{{ post.url }}">
+				<div class="talk-info">
+						<h2 class="talker-name">
+							{{ post.name }}
+						</h2>
+						<h2 class="talk-title">
+							{{ post.title }}
+						</h2>
+						<p class="talk-role">
+							[ {{ post.track }} ]
+						</p>
+				</div>
+			</a>
+		</div>
+		{% endif %}
+	{% endfor %}
+	</div>
 </div>
 
 <div id="2015" class="section">
@@ -178,7 +205,7 @@ title: Webcamp Ljubljana 2016
 				<li>Jure Čuhalev</li>
 				<li>Sabina Hosta</li>
 				<li>Klemen Robnik</li>
-				<li>Anamarija Sustič</li>
+				<li>Ana Sustič</li>
 			</ul>
 		</div>
 		<div class="col-md-6">
