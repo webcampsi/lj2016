@@ -9,13 +9,12 @@
 }
 
 .talks-one{
-	margin-top:5%;
-	padding:20px;
-	position:relative;
-	left:10%;
-	width: 80%;
-	height: auto;
-	background-color: $grey-color-light;
+	background-color: orange;
+  width: 30%;
+  padding: 30px;
+  display: inline-block;
+  vertical-align: top;
+  margin-bottom: 20px;
 }
 
 .talk-title {
@@ -23,6 +22,9 @@
 		size: 0.9em;
 		weight: 300;
 		family: $base-font-family;
+	};
+	h2: {
+		margin-bottom: 5px;
 	};
 	padding: 0 0.25em;
 	color: $text-color;
