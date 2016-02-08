@@ -75,23 +75,32 @@ title: Webcamp Ljubljana 2016
 	{% assign posts = site.posts | sort:"name" %}
 	{% for post in posts %}
 		{% if post.role == 'talk' %}
-		<div class="talkers-one">
-			<a class="" href="{{ site.baseurl }}{{ post.url }}">
-				<div class="talk-info">
-						<h2 class="talker-name">
-							{{ post.name }}
-						</h2>
-						<h2 class="talk-title">
-							{{ post.title }}
-						</h2>
-						<p class="talk-role">
-							[ {{ post.track }} ]
+		<div class="talkers-one" class="row">
+				<a class="col-xs-12 col-sm-6 col-md-4" href="{{ site.baseurl }}{{ post.url }}">
+					<div class="talk-info">
+            <p class="talk-image">
+							<img src="{{ site.baseurl }}/assets/images/speakers/{{ post.avatar }}"></img>
 						</p>
-				</div>
-			</a>
+						<p class="talker-name">
+							{{ post.name }}
+						</p>
+						<p class="talk-title">
+							{{ post.title }}
+						</p>
+						<p class="talk-role"  class="talk-bottom">
+						 	{{ post.track }}
+						</p>
+<!--
+						<p class="talk-twitter"  class="talk-bottom">
+							<i class='fa fa-twitter fa-1x'>
+							</i>
+						</p> -->
+					</div>
+				</a>
 		</div>
 		{% endif %}
 	{% endfor %}
+	 <div class="clearfix"></div>
 	</div>
 </div>
 

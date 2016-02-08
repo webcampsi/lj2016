@@ -1,51 +1,56 @@
-.talks {
-	position:relative;
-	top:15%;
-	padding-left:0;
-	display:block;
-	width:90%;
-	text-align: left;
-	margin: 5% auto;
-}
-
-.talks-one{
-	background-color: orange;
-  width: 30%;
-  padding: 30px;
-  display: inline-block;
-  vertical-align: top;
-  margin-bottom: 20px;
-}
+.talk-image {
+	  display: block;
+	  height: auto;
+	}
 
 .talk-title {
 	font: {
-		size: 0.9em;
-		weight: 300;
-		family: $base-font-family;
-	};
-	h2: {
-		margin-bottom: 5px;
-	};
-	padding: 0 0.25em;
-	color: $text-color;
+		weight: 400;
+		};
+	color: $red-color;
 	position:relative;
+	padding: 0 0 0 0.50em;
+	@media(max-width:767px) {
+      font-size: 0.8em;
+  }
 }
-
+.talk-bottom{
+	position: absolute;
+  bottom: 0;
+  left: 0;
+}
 
 .talk-role {
 	font: {
 		size: 0.7em;
-		weight: 400;
+		weight: 600;
 	};
 	color: $red-color;
-	position:relative;
+	color: $white-color;
+	text-transform: lowercase;
+	position: absolute;
+  bottom: 0;
+  left: 0;
+	margin-bottom: 0.5em;
+	padding: 0 0 0 0.50em;
+	}
+
+	.talk-twitter{
+		color: $grey-color;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		margin-bottom: 0.3em;
+		padding: 0 0.5em 0 0;
+
 	}
 
 .talk-info {
-	height:13em;
+	height:22em;
 	position:relative;
-	background-color: $grey-color-light;
-	padding:10px;
+	background-color: $red-color-talks;
+	margin-bottom: 2em;
+
 }
 
 .talker-page-name {

@@ -4,6 +4,8 @@ title: Purely functional frontend
 permalink: Andraz-Bajt
 role: talk
 track: Front-end
+twitter: edofic
+avatar: Andraz-Bajt.jpg
 layout: talks
 ---
 
