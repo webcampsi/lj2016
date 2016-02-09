@@ -7,12 +7,8 @@
 }
 
 .talkers-one{
-	/* width: 29%; */
-	/*display: inline-block;*/
 	vertical-align: top;
-	/*margin: 0px 20px 20px 0px;*/
 	background-color: $red-color-talks;
-
 	&:hover {
 		background-color: $grey-color;
 	}
@@ -20,9 +16,7 @@
 
 
 .talker-name {
-	font: {
-		weight: 600;
-	};
+		font-weight: 600;
 		color: $red-color;
 		padding: 0.50em;
 	}
