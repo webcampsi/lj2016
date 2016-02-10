@@ -3,7 +3,7 @@ name: Andraz Bajt
 title: Purely functional frontend
 permalink: Andraz-Bajt
 role: talk
-track: Front-end
+track: Frontend
 twitter: edofic
 avatar: Andraz-Bajt.jpg
 layout: talks

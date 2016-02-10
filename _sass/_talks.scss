@@ -6,7 +6,7 @@
 .talk-title {
 	font-weight: 400;
 	color: $red-color;
-	position:relative;
+	float: left;
 	padding: 0 0 0 0.50em;
 	@media(max-width:767px) {
       font-size: 0.8em;
@@ -34,8 +34,8 @@
 	color: $grey-color;
 	position: absolute;
 	bottom: 0;
-	right: 0;
-	margin-bottom: 0.3em;
+	right: 1em;
+	margin-bottom: 1.3em;
 	padding: 0 0.5em 0 0;
 }
 
@@ -44,12 +44,13 @@
 	position:relative;
 	background-color: $red-color-talks;
 	margin-bottom: 2em;
+	display:block;
 }
 
 .talker-page-name {
 	margin-top:50px;
-	font-size: 1.3em;
-	font-weight: 700;
+	font-size: 1em;
+	font-weight: 400;
 	font-family: $base-font-family;
 	padding: 0.5em 0 0;
 	color: $text-color;

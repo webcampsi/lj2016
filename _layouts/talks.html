@@ -2,22 +2,29 @@
 layout: default_without_mailchimp
 ---
 
-<section class="slide">
+<section class="container-fluid">
 	<div class="content">
 		<div clas="row">
-				<div class="col-md-4">
+				<div class="col-xs-12 col-sm-6 col-md-4">
 					<p class="talk-image">
 						<img src="{{ site.baseurl }}/assets/images/speakers/{{ page.avatar }}" />
 					</p>
 					<p class="talker-name">{{ page.name }}</p>
+					{% if page.twitter %}
+			    <a href="https://twitter.com/{{ page.twitter}}" class="talk-twitter">
+			        <i class='fa fa-twitter fa-1x'>
+			        </i>
+			      </a>
+			    {% endif %}
 				</div>
-				<div class="col-md-8">
+				<div class="col-xs-12 col-sm-6 col-md-8">
 					<p class="talker-name">{{ page.title }}</p>
-					<div>
+					<div class="talker-page-name">
 						{{ content }}
 					</div>
+					<div class="section"></div>
 				</div>
 			</div>
 		<a href="{{ site.baseurl }}/#talks" class="back">< Back to talks</a>
-	</div>
+	</div> <!--end div content -->
 </section>
