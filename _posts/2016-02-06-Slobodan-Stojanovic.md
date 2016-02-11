@@ -4,6 +4,8 @@ title: Offline web apps
 permalink: Slobodan-Stojanovic
 role: talk
 track: Backend
+twitter: slobodan_
+avatar: Slobodan-Stojanovic.jpg
 layout: talks
 ---
 

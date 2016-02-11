@@ -1,58 +1,57 @@
-.talks {
-	position:relative;
-	top:15%;
-	padding-left:0;
-	display:block;
-	width:90%;
-	text-align: left;
-	margin: 5% auto;
-}
-
-.talks-one{
-	margin-top:5%;
-	padding:20px;
-	position:relative;
-	left:10%;
-	width: 80%;
-	height: auto;
-	background-color: $grey-color-light;
-}
-
-.talk-title {
-	font: {
-		size: 0.9em;
-		weight: 300;
-		family: $base-font-family;
-	};
-	padding: 0 0.25em;
-	color: $text-color;
-	position:relative;
-}
-
-
-.talk-role {
-	font: {
-		size: 0.7em;
-		weight: 400;
-	};
-	color: $red-color;
-	position:relative;
+.talk-image {
+	  display: block;
+	  height: auto;
 	}
 
+.talk-title {
+	font-weight: 400;
+	color: $red-color;
+	float: left;
+	padding: 0 0 0 0.50em;
+	@media(max-width:767px) {
+      font-size: 0.8em;
+  }
+}
+.talk-bottom{
+	position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.talk-role {
+	font-size: 0.7em;
+	font-weight: 600;
+	color: $white-color;
+	text-transform: lowercase;
+	position: absolute;
+  bottom: 0;
+  left: 0;
+	margin-bottom: 0.50em;
+	padding: 0 0 0 0.50em;
+}
+
+.talk-twitter{
+	color: $grey-color;
+	position: absolute;
+	bottom: 0;
+	right: 1em;
+	margin-bottom: 1.3em;
+	padding: 0 0.5em 0 0;
+}
+
 .talk-info {
-	height:13em;
+	height:22em;
 	position:relative;
-	background-color: $grey-color-light;
-	padding:10px;
+	background-color: $red-color-talks;
+	margin-bottom: 2em;
+	display:block;
 }
 
 .talker-page-name {
 	margin-top:50px;
-	font: {
-		size: 1.3em;
-		weight: 700;
-		family: $base-font-family;
-	};
+	font-size: 1em;
+	font-weight: 400;
+	font-family: $base-font-family;
 	padding: 0.5em 0 0;
 	color: $text-color;
 	position:relative;

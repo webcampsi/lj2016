@@ -71,28 +71,32 @@ title: Webcamp Ljubljana 2016
 -->
 <div id="talks" class="section">
   <h1>Talks</h1>
-	<div class="talkers">
-	{% assign posts = site.posts | sort:"name" %}
-	{% for post in posts %}
-		{% if post.role == 'talk' %}
-		<div class="talkers-one">
-			<a class="" href="{{ site.baseurl }}{{ post.url }}">
-				<div class="talk-info">
-						<h2 class="talker-name">
-							{{ post.name }}
-						</h2>
-						<h2 class="talk-title">
-							{{ post.title }}
-						</h2>
-						<p class="talk-role">
-							[ {{ post.track }} ]
-						</p>
-				</div>
-			</a>
-		</div>
-		{% endif %}
-	{% endfor %}
-	</div>
+	<div class="container-fluid">
+		<div class="row">
+			{% assign posts = site.posts | sort:"name" %}
+			{% for post in posts %}
+				{% if post.role == 'talk' %}
+					<div class="col-xs-12 col-sm-6 col-md-4">
+							<a href="{{ site.baseurl }}{{ post.url }}"><span class="talk-info">
+								<img class="talk-image" src="{{ site.baseurl }}/assets/images/speakers/{{ post.avatar }}" />
+								<span class="talker-name">
+									{{ post.name }}
+								</span>
+								<span class="talk-title">
+									{{ post.title }}
+								</span>
+								<span class="talk-role talk-bottom">
+						 			{{ post.track }}
+								</span>
+							</span>
+						</a>
+					</div> <!-- end div col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
+
+				{% endif %}
+			{% endfor %}
+	 		<div class="clearfix"></div>
+		</div> <!-- end div row -->
+	</div> <!-- end div container-fluid -->
 </div>
 
 <div id="2015" class="section">

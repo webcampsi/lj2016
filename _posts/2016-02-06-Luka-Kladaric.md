@@ -4,6 +4,8 @@ title: The importance of being a noob
 permalink: Luka-Kladaric
 role: talk
 track: Other
+twitter: kll
+avatar: Luka-Kladaric.jpg
 layout: talks
 ---
 

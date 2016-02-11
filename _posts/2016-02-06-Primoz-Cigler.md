@@ -4,6 +4,8 @@ title: Beauties and challenges of remote work
 permalink: Primoz-Cigler
 role: talk
 track: Other
+twitter: primozcigler
+avatar: Primoz-Cigler.jpg
 layout: talks
 ---
 

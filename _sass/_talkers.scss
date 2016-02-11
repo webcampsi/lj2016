@@ -2,28 +2,22 @@
 	padding-left:0;
 	display:block;
 	width:100%;
-	text-align: center;
+	text-align: left;
 	margin: 5% auto;
 }
 
 .talkers-one{
-	width: 29%;
-	display: inline-block;
 	vertical-align: top;
-	margin: 0px 20px 20px 0px;
-	background-color: $grey-color-light;
-
+	background-color: $red-color-talks;
 	&:hover {
-		background-color: $grey-color-light;
+		background-color: $grey-color;
 	}
 }
 
+
 .talker-name {
-	font: {
-		size: 0.9em;
-		weight: 400;
-	};
-	color: $text-color;
-	background-color: rgba(255, 255, 255, 0.8);
-	width: 11em;
-}
+		font-weight: 600;
+		color: $red-color;
+		padding: 0.50em;
+		float: left;
+	}

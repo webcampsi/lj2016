@@ -4,6 +4,8 @@ title: The Burden of Project Stewardship
 permalink: Bozhidar-Batsov
 role: talk
 track: Other
+twitter: bbatsov
+avatar: Bozhidar-Batsov.jpg
 layout: talks
 ---
 

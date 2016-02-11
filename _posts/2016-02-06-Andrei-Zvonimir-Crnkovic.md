@@ -3,7 +3,9 @@ name: Andrei Zvonimir Crnković
 title: Go reactive or go home
 permalink: Andrei-Zvonimir-Crnkovic
 role: talk
-track: Front-end
+track: Frontend
+twitter: andreicek
+avatar: Andrei-Zvonimir-Crnkovic.png
 layout: talks
 ---
 
