@@ -1,12 +1,12 @@
 ---
-name: Bozhidar Batsov
-title: The Burden of Project Stewardship
-permalink: Bozhidar-Batsov
+name: Marko-Kazic
+title: Where we fail at teaching programming
+permalink: Marko-Kazic
 role: talk
 track: Other
-twitter: bbatsov
-avatar: Bozhidar-Batsov.jpg
+twitter: marxo
+avatar: Marko-Kazic.jpg
 layout: talks
 ---
 
-There's one recurring problem with open-source projects - there are constantly people who feel the stewards of some project aren't doing a very good job. From the outside it might seem that the development is going slow, that the maintainers aren't communication enough with their users, that the roadmap is fuzzy (if existing at all). I'd like to share with you one different perspective - that of person who currently stewards a myriad of OSS projects and is involved in dozens more.
+What is wrong with teaching programming? Why is CSS so hard to figure out, why we don't have a model for learning UX properly? How teaching has to evolve to change that.
