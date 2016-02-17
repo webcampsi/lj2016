@@ -5,7 +5,7 @@ permalink: Anze-Znidarsic
 role: talk
 track: Frontend
 twitter:
-avatar: Anze-Znidarsic.jpg
+avatar: Anze-Znidarsic.png
 layout: talks
 ---
 
