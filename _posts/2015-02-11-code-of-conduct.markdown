@@ -59,7 +59,7 @@ Creative Commons License
 
 <img src="http://i.creativecommons.org/l/by/3.0/88x31.png" alt="Creative Commons License" style="border-width: 0;">
 
-Conference [Code of Conduct](http://2016.webcamp.si/code-of-conduct/) is licensed under a [Creative Commons
+Conference [Code of Conduct](http://2015.webcamp.si/code-of-conduct/) is licensed under a [Creative Commons
 Attribution 4.0 Unported License](https://creativecommons.org/licenses/by/4.0/).
 
 ##Thanks
@@ -71,5 +71,10 @@ Thank you to every Webcamp Ljubljana community member for helping making Webcamp
 Organizers:
 
 * Mojca Berce
+* Marko Brumen
+* Maša Černovšek Logar
 * Jure Čuhalev
+* Heidi Pungartnik
 * Klemen Robnik
+* Tina Rozman
+* Nataša Šubelj

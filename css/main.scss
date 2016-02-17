@@ -30,6 +30,7 @@ $twitter-hover:    #00aced;
 $facebook-hover:   #3b5998;
 $red-color:        #ef4036;
 $white-color:      #fff;
+$red-color-talks:  #fac4b1;
 
 
 $on-palm:          600px;
@@ -56,6 +57,8 @@ $on-laptop:        800px;
         "breakpoints",
         "mixins",
         "layout",
+        "talks",
+        "talkers",
         "syntax-highlighting"
 
 ;
