@@ -71,10 +71,7 @@ Thank you to every Webcamp Ljubljana community member for helping making Webcamp
 Organizers:
 
 * Mojca Berce
-* Marko Brumen
-* Maša Černovšek Logar
 * Jure Čuhalev
-* Heidi Pungartnik
+* Sabina Hosta
 * Klemen Robnik
-* Tina Rozman
-* Nataša Šubelj
+* Ana Sustič
