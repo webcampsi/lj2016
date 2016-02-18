@@ -569,3 +569,27 @@ header .header-content .header-content-inner p {
 .sponsors-buna {
   margin-top: 40px;
 }
+
+/*
+ * Schedule
+ */
+
+ .btn-grey {
+  background-color: $grey-color-dark;
+  color: white;
+  font-family:$heading-family;
+  width: 100%;
+  text-align: left;
+  margin: 0.3em;
+  font-size: 16px;
+}
+
+.btn-red {
+ background-color: $red-color-talks;
+ color: $grey-color-dark;
+ font-family:$heading-family;
+ width: 100%;
+ text-align: left;
+ margin: 0.3em;
+ font-size: 16px;
+}
