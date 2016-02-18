@@ -7,10 +7,12 @@
 	font-weight: 400;
 	color: $red-color;
 	float: left;
-	padding: 0 0 0 0.50em;
+	padding: 0 0.5em 0 0.5em;
+/**
 	@media(max-width:767px) {
       font-size: 0.8em;
   }
+**/
 }
 .talk-bottom{
 	position: absolute;
