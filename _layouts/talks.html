@@ -6,17 +6,19 @@ layout: default_without_mailchimp
 	<div class="content">
 		<div clas="row">
 				<div class="col-xs-12 col-sm-6 col-md-4">
-					<p class="talk-image">
+					<div class="talk-image">
 						<img src="{{ site.baseurl }}/assets/images/speakers/{{ page.avatar }}" />
-					</p>
-					<p class="talker-name">{{ page.name }}</p>
+					</div>
+					<div class="talker-name">{{ page.name }}</div>
 					{% if page.twitter %}
-			    <a href="https://twitter.com/{{ page.twitter}}" class="talk-twitter">
-			        <i class='fa fa-twitter fa-1x'>
-			        </i>
-			      </a>
-			    {% endif %}
-				</div>
+						<div>
+							<a href="https://twitter.com/{{ page.twitter}}" class="talk-twitter">
+			        	<i class='fa fa-twitter fa-1x'>
+			        	</i>
+			      	</a>
+						</div>
+					{% endif %}
+					</div>
 				<div class="col-xs-12 col-sm-6 col-md-8">
 					<p class="talker-name">{{ page.title }}</p>
 					<div class="talker-page-name">
