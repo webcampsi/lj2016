@@ -1,12 +1,12 @@
 ---
-name: Srdjan Vranac
-title: Roll out - Code deployments that do not suck
-permalink: Srdjan-Vranac
+name: Aleksandar Stevanovic
+title: Change is hard - make your life easy by making code simple
+permalink: Aleksandar-Stevanovic
 role: talk
 track: Backend
-twitter: vranac
-avatar: Srdjan-Vranac.jpg
+twitter: _maymoon
+avatar: Aleksandar-Stevanovic.jpg
 layout: talks
 ---
 
-How comfortable are you when deploying your code? Is your deployment process streamlined and automated? Can you deploy to multiple servers? How do you deal with database migrations? In this talk we will go over some of the options available and the challenges you will be facing while trying to setup frictionless deployments.
+We all make same mistakes, some of us overthink the problem and some of us just want to find the solution and make the test pass. When it comes to changing the code we are very easy pulled into pain driven development, and starting to look for a way out. I want to point out the real cost of change, and how it may seem that simple and clean code doesn't have real business value, legacy code have the technical debt that eventually need to be addressed, before declaring technical bankruptcy.

@@ -1,5 +1,5 @@
 ---
-name: Marko-Kazic
+name: Marko Kazic
 title: Where we fail at teaching programming
 permalink: Marko-Kazic
 role: talk
