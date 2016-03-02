@@ -1,0 +1,24 @@
+---
+layout: default_without_mailchimp
+---
+
+<section class="container-fluid">
+	<div class="content">
+		<div clas="row">
+				<div class="col-xs-12 col-sm-6 col-md-4">
+					<div class="talk-image">
+						<img src="{{ site.baseurl }}/assets/images/iot/{{ page.avatar }}" />
+					</div>
+					<div class="talker-name">Presented by {{ page.name }}</div>
+				</div>
+				<div class="col-xs-12 col-sm-6 col-md-8">
+					<p class="talker-name">{{ page.title }}</p>
+					<div class="talker-page-name">
+						{{ content }}
+					</div>
+					<div class="section"></div>
+				</div>
+			</div>
+		<a href="{{ site.baseurl }}/#talks" class="back">< Back to IoT corner</a>
+	</div> <!--end div content -->
+</section>
