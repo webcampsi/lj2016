@@ -29,6 +29,7 @@ title: Webcamp Ljubljana 2016
 	<p><a href="http://eepurl.com/8f5HT" target="_blank">Subscribe to the announcements mailing list.</a></p>
 </div>
 
+<!--
 <div id="iot" class="section">
   <h1>IoT call for participants</h1>
 
@@ -40,6 +41,7 @@ title: Webcamp Ljubljana 2016
 		<a href="http://webcamp.typeform.com/to/XAI628" target="_blank" class="btn btn-default" target="_blank">Apply here</a>
 	</div>
 </div>
+-->
 
 <!--
 <div class="section">
@@ -105,6 +107,33 @@ title: Webcamp Ljubljana 2016
 						 			{{ post.track }}
 								</span>
 							</span>
+						</a>
+					</div> <!-- end div col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
+
+				{% endif %}
+			{% endfor %}
+	 		<div class="clearfix"></div>
+		</div> <!-- end div row -->
+	</div> <!-- end div container-fluid -->
+</div>
+
+<div id="iotcorner" class="section">
+  <h1>IoT corner</h1>
+	<div class="container-fluid">
+		<div class="row">
+			{% assign posts = site.posts | sort:"name"%}
+			{% for post in posts %}
+				{% if post.role == 'iot' %}
+					<div class="col-xs-12 col-sm-3">
+							<a href="{{ site.baseurl }}{{ post.url }}"><span class="iot-info">
+								<img class="talk-image" src="{{ site.baseurl }}/assets/images/iot/{{ post.avatar }}" />
+								<div class="talker-name">
+									{{ post.name }}
+								</div>
+								<div class="talk-title">
+									{{ post.title }}
+								</div>
+								</span>
 						</a>
 					</div> <!-- end div col-xs-12 col-sm-6 col-md-4 col-lg-3 -->
 
