@@ -1,0 +1,27 @@
+.schedule-red {
+	position:relative;
+	background-color: $red-color-talks;
+	color: $grey-color-dark;
+	margin-bottom: 2em;
+	display:block;
+	padding: 6px 12px;
+	border-radius: 4px;
+}
+.schedule-grey {
+	position:relative;
+	background-color: $grey-color;
+	color: $white-color;
+	margin-bottom: 2em;
+	display:block;
+	padding: 6px 12px;
+	border-radius: 4px;
+}
+.schedule-red-on-red {
+	position:relative;
+	background-color: $red-color-talks;
+	color: $red-color;
+	margin-bottom: 2em;
+	display:block;
+	padding: 6px 12px;
+	border-radius: 4px;
+}
