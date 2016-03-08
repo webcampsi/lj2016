@@ -315,24 +315,22 @@ header .header-content .header-content-inner p {
  		display: inline-block;
  		padding: 0.5em;
  		margin-bottom:0;
+    a {
+   		font: {
+   			family: $base-font-family;
+   			weight: 600;
+        padding: 5px;
+        }
+   		display: inline-block;
+   		color: $red-color;
+   		text-transform: uppercase;
 
+   		&:hover {
+   			color: $grey-color-dark;
+   		}
+   	}
  	}
-
- 	a {
- 		font: {
- 			family: $base-font-family;
- 			weight: 400;
- 			size: 23px;
- 		}
- 		display: inline-block;
- 		color: $red-color;
- 		text-transform: uppercase;
-
- 		&:hover {
- 			color: $grey-color-dark;
- 		}
- 	}
- }
+}
 
 
 /**
