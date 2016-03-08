@@ -175,7 +175,7 @@ header .header-content .header-content-inner p {
   max-width: 90%;
 
   @include MQ(M) {
-      margin-top: 30px;
+      margin-bottom: 30px;
       max-width: 50%;
   }
 }
