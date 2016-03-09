@@ -11,7 +11,7 @@ and if you can't resolve an issue contact staff. If you are being a problem, it 
 
 ## Respect
 
-Webcamp Ljubljana is an positive community that recognizes and celebrates the creativity and collaboration of creators and the diversity of people, cultures, and opinions that they bring to Webcamp Ljubljana.
+Webcamp Ljubljana is a positive community that recognizes and celebrates the creativity and collaboration of creators and the diversity of people, cultures, and opinions that they bring to Webcamp Ljubljana.
 
 Webcamp Ljubljana events are an inclusive environment, based on treating all individuals respectfully, regardless of gender (including transgender status), sexual orientation, age, disability, medical conditions, nationality, ethnicity, religion (or lack thereof), or software preferences.
 
